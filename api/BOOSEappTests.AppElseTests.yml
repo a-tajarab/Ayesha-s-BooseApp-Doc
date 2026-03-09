@@ -1,0 +1,475 @@
+### YamlMime:ManagedReference
+items:
+- uid: BOOSEappTests.AppElseTests
+  commentId: T:BOOSEappTests.AppElseTests
+  id: AppElseTests
+  parent: BOOSEappTests
+  children:
+  - BOOSEappTests.AppElseTests.AppElse_Compile_FullIfElseBlock_DoesNotThrow
+  - BOOSEappTests.AppElseTests.AppElse_Compile_LinksToCorrespondingIf
+  - BOOSEappTests.AppElseTests.AppElse_Compile_SetsEndLineNumberOnIf
+  - BOOSEappTests.AppElseTests.AppElse_CondType_IsCommIF
+  langs:
+  - csharp
+  - vb
+  name: AppElseTests
+  nameWithType: AppElseTests
+  fullName: BOOSEappTests.AppElseTests
+  type: Class
+  source:
+    remote:
+      path: 6addYourProgramsHere/BOOSEapp/BOOSEappTests/AppElseTests.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-a-tajarab.git
+    id: AppElseTests
+    path: ../BOOSEapp/BOOSEappTests/AppElseTests.cs
+    startLine: 12
+  assemblies:
+  - BOOSEappTests
+  namespace: BOOSEappTests
+  syntax:
+    content: >-
+      [TestClass]
+
+      public class AppElseTests
+    content.vb: >-
+      <TestClass>
+
+      Public Class AppElseTests
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute.#ctor
+    arguments: []
+- uid: BOOSEappTests.AppElseTests.AppElse_CondType_IsCommIF
+  commentId: M:BOOSEappTests.AppElseTests.AppElse_CondType_IsCommIF
+  id: AppElse_CondType_IsCommIF
+  parent: BOOSEappTests.AppElseTests
+  langs:
+  - csharp
+  - vb
+  name: AppElse_CondType_IsCommIF()
+  nameWithType: AppElseTests.AppElse_CondType_IsCommIF()
+  fullName: BOOSEappTests.AppElseTests.AppElse_CondType_IsCommIF()
+  type: Method
+  source:
+    remote:
+      path: 6addYourProgramsHere/BOOSEapp/BOOSEappTests/AppElseTests.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-a-tajarab.git
+    id: AppElse_CondType_IsCommIF
+    path: ../BOOSEapp/BOOSEappTests/AppElseTests.cs
+    startLine: 21
+  assemblies:
+  - BOOSEappTests
+  namespace: BOOSEappTests
+  summary: Test that AppElse initialises with the correct conditional type (commIF)
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void AppElse_CondType_IsCommIF()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub AppElse_CondType_IsCommIF()
+  overload: BOOSEappTests.AppElseTests.AppElse_CondType_IsCommIF*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: BOOSEappTests.AppElseTests.AppElse_Compile_LinksToCorrespondingIf
+  commentId: M:BOOSEappTests.AppElseTests.AppElse_Compile_LinksToCorrespondingIf
+  id: AppElse_Compile_LinksToCorrespondingIf
+  parent: BOOSEappTests.AppElseTests
+  langs:
+  - csharp
+  - vb
+  name: AppElse_Compile_LinksToCorrespondingIf()
+  nameWithType: AppElseTests.AppElse_Compile_LinksToCorrespondingIf()
+  fullName: BOOSEappTests.AppElseTests.AppElse_Compile_LinksToCorrespondingIf()
+  type: Method
+  source:
+    remote:
+      path: 6addYourProgramsHere/BOOSEapp/BOOSEappTests/AppElseTests.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-a-tajarab.git
+    id: AppElse_Compile_LinksToCorrespondingIf
+    path: ../BOOSEapp/BOOSEappTests/AppElseTests.cs
+    startLine: 31
+  assemblies:
+  - BOOSEappTests
+  namespace: BOOSEappTests
+  summary: Tests that an else correctly links to its corresponding if command when compiled
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void AppElse_Compile_LinksToCorrespondingIf()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub AppElse_Compile_LinksToCorrespondingIf()
+  overload: BOOSEappTests.AppElseTests.AppElse_Compile_LinksToCorrespondingIf*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: BOOSEappTests.AppElseTests.AppElse_Compile_SetsEndLineNumberOnIf
+  commentId: M:BOOSEappTests.AppElseTests.AppElse_Compile_SetsEndLineNumberOnIf
+  id: AppElse_Compile_SetsEndLineNumberOnIf
+  parent: BOOSEappTests.AppElseTests
+  langs:
+  - csharp
+  - vb
+  name: AppElse_Compile_SetsEndLineNumberOnIf()
+  nameWithType: AppElseTests.AppElse_Compile_SetsEndLineNumberOnIf()
+  fullName: BOOSEappTests.AppElseTests.AppElse_Compile_SetsEndLineNumberOnIf()
+  type: Method
+  source:
+    remote:
+      path: 6addYourProgramsHere/BOOSEapp/BOOSEappTests/AppElseTests.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-a-tajarab.git
+    id: AppElse_Compile_SetsEndLineNumberOnIf
+    path: ../BOOSEapp/BOOSEappTests/AppElseTests.cs
+    startLine: 51
+  assemblies:
+  - BOOSEappTests
+  namespace: BOOSEappTests
+  summary: >-
+    Tests that compiling an else command sets the end line number of its corresponding if
+
+    command to the line number of the else command
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void AppElse_Compile_SetsEndLineNumberOnIf()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub AppElse_Compile_SetsEndLineNumberOnIf()
+  overload: BOOSEappTests.AppElseTests.AppElse_Compile_SetsEndLineNumberOnIf*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: BOOSEappTests.AppElseTests.AppElse_Compile_FullIfElseBlock_DoesNotThrow
+  commentId: M:BOOSEappTests.AppElseTests.AppElse_Compile_FullIfElseBlock_DoesNotThrow
+  id: AppElse_Compile_FullIfElseBlock_DoesNotThrow
+  parent: BOOSEappTests.AppElseTests
+  langs:
+  - csharp
+  - vb
+  name: AppElse_Compile_FullIfElseBlock_DoesNotThrow()
+  nameWithType: AppElseTests.AppElse_Compile_FullIfElseBlock_DoesNotThrow()
+  fullName: BOOSEappTests.AppElseTests.AppElse_Compile_FullIfElseBlock_DoesNotThrow()
+  type: Method
+  source:
+    remote:
+      path: 6addYourProgramsHere/BOOSEapp/BOOSEappTests/AppElseTests.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-a-tajarab.git
+    id: AppElse_Compile_FullIfElseBlock_DoesNotThrow
+    path: ../BOOSEapp/BOOSEappTests/AppElseTests.cs
+    startLine: 70
+  assemblies:
+  - BOOSEappTests
+  namespace: BOOSEappTests
+  summary: Tests that full if/else/end block compiles without throwing an exception
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void AppElse_Compile_FullIfElseBlock_DoesNotThrow()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub AppElse_Compile_FullIfElseBlock_DoesNotThrow()
+  overload: BOOSEappTests.AppElseTests.AppElse_Compile_FullIfElseBlock_DoesNotThrow*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+references:
+- uid: BOOSEappTests
+  commentId: N:BOOSEappTests
+  href: BOOSEappTests.html
+  name: BOOSEappTests
+  nameWithType: BOOSEappTests
+  fullName: BOOSEappTests
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: BOOSEappTests.AppElseTests.AppElse_CondType_IsCommIF*
+  commentId: Overload:BOOSEappTests.AppElseTests.AppElse_CondType_IsCommIF
+  href: BOOSEappTests.AppElseTests.html#BOOSEappTests_AppElseTests_AppElse_CondType_IsCommIF
+  name: AppElse_CondType_IsCommIF
+  nameWithType: AppElseTests.AppElse_CondType_IsCommIF
+  fullName: BOOSEappTests.AppElseTests.AppElse_CondType_IsCommIF
+- uid: BOOSEappTests.AppElseTests.AppElse_Compile_LinksToCorrespondingIf*
+  commentId: Overload:BOOSEappTests.AppElseTests.AppElse_Compile_LinksToCorrespondingIf
+  href: BOOSEappTests.AppElseTests.html#BOOSEappTests_AppElseTests_AppElse_Compile_LinksToCorrespondingIf
+  name: AppElse_Compile_LinksToCorrespondingIf
+  nameWithType: AppElseTests.AppElse_Compile_LinksToCorrespondingIf
+  fullName: BOOSEappTests.AppElseTests.AppElse_Compile_LinksToCorrespondingIf
+- uid: BOOSEappTests.AppElseTests.AppElse_Compile_SetsEndLineNumberOnIf*
+  commentId: Overload:BOOSEappTests.AppElseTests.AppElse_Compile_SetsEndLineNumberOnIf
+  href: BOOSEappTests.AppElseTests.html#BOOSEappTests_AppElseTests_AppElse_Compile_SetsEndLineNumberOnIf
+  name: AppElse_Compile_SetsEndLineNumberOnIf
+  nameWithType: AppElseTests.AppElse_Compile_SetsEndLineNumberOnIf
+  fullName: BOOSEappTests.AppElseTests.AppElse_Compile_SetsEndLineNumberOnIf
+- uid: BOOSEappTests.AppElseTests.AppElse_Compile_FullIfElseBlock_DoesNotThrow*
+  commentId: Overload:BOOSEappTests.AppElseTests.AppElse_Compile_FullIfElseBlock_DoesNotThrow
+  href: BOOSEappTests.AppElseTests.html#BOOSEappTests_AppElseTests_AppElse_Compile_FullIfElseBlock_DoesNotThrow
+  name: AppElse_Compile_FullIfElseBlock_DoesNotThrow
+  nameWithType: AppElseTests.AppElse_Compile_FullIfElseBlock_DoesNotThrow
+  fullName: BOOSEappTests.AppElseTests.AppElse_Compile_FullIfElseBlock_DoesNotThrow

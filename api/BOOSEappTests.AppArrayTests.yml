@@ -1,0 +1,541 @@
+### YamlMime:ManagedReference
+items:
+- uid: BOOSEappTests.AppArrayTests
+  commentId: T:BOOSEappTests.AppArrayTests
+  id: AppArrayTests
+  parent: BOOSEappTests
+  children:
+  - BOOSEappTests.AppArrayTests.AppArray_Compile_EmptyParams_Throws
+  - BOOSEappTests.AppArrayTests.AppArray_Compile_IntArray_RegistersInProgram
+  - BOOSEappTests.AppArrayTests.AppArray_Compile_InvalidType_Throws
+  - BOOSEappTests.AppArrayTests.AppArray_Compile_RealArray_RegistersInProgram
+  - BOOSEappTests.AppArrayTests.AppArray_Execute_IsNoOp_DoesNotThrow
+  langs:
+  - csharp
+  - vb
+  name: AppArrayTests
+  nameWithType: AppArrayTests
+  fullName: BOOSEappTests.AppArrayTests
+  type: Class
+  source:
+    remote:
+      path: 6addYourProgramsHere/BOOSEapp/BOOSEappTests/AppArrayTests.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-a-tajarab.git
+    id: AppArrayTests
+    path: ../BOOSEapp/BOOSEappTests/AppArrayTests.cs
+    startLine: 26
+  assemblies:
+  - BOOSEappTests
+  namespace: BOOSEappTests
+  syntax:
+    content: >-
+      [TestClass]
+
+      public class AppArrayTests
+    content.vb: >-
+      <TestClass>
+
+      Public Class AppArrayTests
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute.#ctor
+    arguments: []
+- uid: BOOSEappTests.AppArrayTests.AppArray_Compile_IntArray_RegistersInProgram
+  commentId: M:BOOSEappTests.AppArrayTests.AppArray_Compile_IntArray_RegistersInProgram
+  id: AppArray_Compile_IntArray_RegistersInProgram
+  parent: BOOSEappTests.AppArrayTests
+  langs:
+  - csharp
+  - vb
+  name: AppArray_Compile_IntArray_RegistersInProgram()
+  nameWithType: AppArrayTests.AppArray_Compile_IntArray_RegistersInProgram()
+  fullName: BOOSEappTests.AppArrayTests.AppArray_Compile_IntArray_RegistersInProgram()
+  type: Method
+  source:
+    remote:
+      path: 6addYourProgramsHere/BOOSEapp/BOOSEappTests/AppArrayTests.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-a-tajarab.git
+    id: AppArray_Compile_IntArray_RegistersInProgram
+    path: ../BOOSEapp/BOOSEappTests/AppArrayTests.cs
+    startLine: 36
+  assemblies:
+  - BOOSEappTests
+  namespace: BOOSEappTests
+  summary: >-
+    Tests that the declaring integer array compiles correctly and registers 
+
+    the array in the program
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void AppArray_Compile_IntArray_RegistersInProgram()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub AppArray_Compile_IntArray_RegistersInProgram()
+  overload: BOOSEappTests.AppArrayTests.AppArray_Compile_IntArray_RegistersInProgram*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: BOOSEappTests.AppArrayTests.AppArray_Compile_RealArray_RegistersInProgram
+  commentId: M:BOOSEappTests.AppArrayTests.AppArray_Compile_RealArray_RegistersInProgram
+  id: AppArray_Compile_RealArray_RegistersInProgram
+  parent: BOOSEappTests.AppArrayTests
+  langs:
+  - csharp
+  - vb
+  name: AppArray_Compile_RealArray_RegistersInProgram()
+  nameWithType: AppArrayTests.AppArray_Compile_RealArray_RegistersInProgram()
+  fullName: BOOSEappTests.AppArrayTests.AppArray_Compile_RealArray_RegistersInProgram()
+  type: Method
+  source:
+    remote:
+      path: 6addYourProgramsHere/BOOSEapp/BOOSEappTests/AppArrayTests.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-a-tajarab.git
+    id: AppArray_Compile_RealArray_RegistersInProgram
+    path: ../BOOSEapp/BOOSEappTests/AppArrayTests.cs
+    startLine: 48
+  assemblies:
+  - BOOSEappTests
+  namespace: BOOSEappTests
+  summary: Tests that the declaring real array compiles correctly and registers
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void AppArray_Compile_RealArray_RegistersInProgram()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub AppArray_Compile_RealArray_RegistersInProgram()
+  overload: BOOSEappTests.AppArrayTests.AppArray_Compile_RealArray_RegistersInProgram*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: BOOSEappTests.AppArrayTests.AppArray_Compile_EmptyParams_Throws
+  commentId: M:BOOSEappTests.AppArrayTests.AppArray_Compile_EmptyParams_Throws
+  id: AppArray_Compile_EmptyParams_Throws
+  parent: BOOSEappTests.AppArrayTests
+  langs:
+  - csharp
+  - vb
+  name: AppArray_Compile_EmptyParams_Throws()
+  nameWithType: AppArrayTests.AppArray_Compile_EmptyParams_Throws()
+  fullName: BOOSEappTests.AppArrayTests.AppArray_Compile_EmptyParams_Throws()
+  type: Method
+  source:
+    remote:
+      path: 6addYourProgramsHere/BOOSEapp/BOOSEappTests/AppArrayTests.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-a-tajarab.git
+    id: AppArray_Compile_EmptyParams_Throws
+    path: ../BOOSEapp/BOOSEappTests/AppArrayTests.cs
+    startLine: 61
+  assemblies:
+  - BOOSEappTests
+  namespace: BOOSEappTests
+  summary: Tests that compiling with missing parameters throws a CommandException
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      [ExpectedException(typeof(CommandException))]
+
+      public void AppArray_Compile_EmptyParams_Throws()
+    content.vb: >-
+      <TestMethod>
+
+      <ExpectedException(GetType(CommandException))>
+
+      Public Sub AppArray_Compile_EmptyParams_Throws()
+  overload: BOOSEappTests.AppArrayTests.AppArray_Compile_EmptyParams_Throws*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: BOOSE.CommandException
+- uid: BOOSEappTests.AppArrayTests.AppArray_Compile_InvalidType_Throws
+  commentId: M:BOOSEappTests.AppArrayTests.AppArray_Compile_InvalidType_Throws
+  id: AppArray_Compile_InvalidType_Throws
+  parent: BOOSEappTests.AppArrayTests
+  langs:
+  - csharp
+  - vb
+  name: AppArray_Compile_InvalidType_Throws()
+  nameWithType: AppArrayTests.AppArray_Compile_InvalidType_Throws()
+  fullName: BOOSEappTests.AppArrayTests.AppArray_Compile_InvalidType_Throws()
+  type: Method
+  source:
+    remote:
+      path: 6addYourProgramsHere/BOOSEapp/BOOSEappTests/AppArrayTests.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-a-tajarab.git
+    id: AppArray_Compile_InvalidType_Throws
+    path: ../BOOSEapp/BOOSEappTests/AppArrayTests.cs
+    startLine: 74
+  assemblies:
+  - BOOSEappTests
+  namespace: BOOSEappTests
+  summary: Tests that providing an invalid array type throws a CommandException
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      [ExpectedException(typeof(CommandException))]
+
+      public void AppArray_Compile_InvalidType_Throws()
+    content.vb: >-
+      <TestMethod>
+
+      <ExpectedException(GetType(CommandException))>
+
+      Public Sub AppArray_Compile_InvalidType_Throws()
+  overload: BOOSEappTests.AppArrayTests.AppArray_Compile_InvalidType_Throws*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: BOOSE.CommandException
+- uid: BOOSEappTests.AppArrayTests.AppArray_Execute_IsNoOp_DoesNotThrow
+  commentId: M:BOOSEappTests.AppArrayTests.AppArray_Execute_IsNoOp_DoesNotThrow
+  id: AppArray_Execute_IsNoOp_DoesNotThrow
+  parent: BOOSEappTests.AppArrayTests
+  langs:
+  - csharp
+  - vb
+  name: AppArray_Execute_IsNoOp_DoesNotThrow()
+  nameWithType: AppArrayTests.AppArray_Execute_IsNoOp_DoesNotThrow()
+  fullName: BOOSEappTests.AppArrayTests.AppArray_Execute_IsNoOp_DoesNotThrow()
+  type: Method
+  source:
+    remote:
+      path: 6addYourProgramsHere/BOOSEapp/BOOSEappTests/AppArrayTests.cs
+      branch: main
+      repo: https://github.com/ASE2025repos/ase-boose-assignment-a-tajarab.git
+    id: AppArray_Execute_IsNoOp_DoesNotThrow
+    path: ../BOOSEapp/BOOSEappTests/AppArrayTests.cs
+    startLine: 88
+  assemblies:
+  - BOOSEappTests
+  namespace: BOOSEappTests
+  summary: >-
+    Tests that Execute is a no-op after Compile, the array is registered
+
+    and exceptions is thrown
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void AppArray_Execute_IsNoOp_DoesNotThrow()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub AppArray_Execute_IsNoOp_DoesNotThrow()
+  overload: BOOSEappTests.AppArrayTests.AppArray_Execute_IsNoOp_DoesNotThrow*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+references:
+- uid: BOOSEappTests
+  commentId: N:BOOSEappTests
+  href: BOOSEappTests.html
+  name: BOOSEappTests
+  nameWithType: BOOSEappTests
+  fullName: BOOSEappTests
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: BOOSEappTests.AppArrayTests.AppArray_Compile_IntArray_RegistersInProgram*
+  commentId: Overload:BOOSEappTests.AppArrayTests.AppArray_Compile_IntArray_RegistersInProgram
+  href: BOOSEappTests.AppArrayTests.html#BOOSEappTests_AppArrayTests_AppArray_Compile_IntArray_RegistersInProgram
+  name: AppArray_Compile_IntArray_RegistersInProgram
+  nameWithType: AppArrayTests.AppArray_Compile_IntArray_RegistersInProgram
+  fullName: BOOSEappTests.AppArrayTests.AppArray_Compile_IntArray_RegistersInProgram
+- uid: BOOSEappTests.AppArrayTests.AppArray_Compile_RealArray_RegistersInProgram*
+  commentId: Overload:BOOSEappTests.AppArrayTests.AppArray_Compile_RealArray_RegistersInProgram
+  href: BOOSEappTests.AppArrayTests.html#BOOSEappTests_AppArrayTests_AppArray_Compile_RealArray_RegistersInProgram
+  name: AppArray_Compile_RealArray_RegistersInProgram
+  nameWithType: AppArrayTests.AppArray_Compile_RealArray_RegistersInProgram
+  fullName: BOOSEappTests.AppArrayTests.AppArray_Compile_RealArray_RegistersInProgram
+- uid: BOOSEappTests.AppArrayTests.AppArray_Compile_EmptyParams_Throws*
+  commentId: Overload:BOOSEappTests.AppArrayTests.AppArray_Compile_EmptyParams_Throws
+  href: BOOSEappTests.AppArrayTests.html#BOOSEappTests_AppArrayTests_AppArray_Compile_EmptyParams_Throws
+  name: AppArray_Compile_EmptyParams_Throws
+  nameWithType: AppArrayTests.AppArray_Compile_EmptyParams_Throws
+  fullName: BOOSEappTests.AppArrayTests.AppArray_Compile_EmptyParams_Throws
+- uid: BOOSEappTests.AppArrayTests.AppArray_Compile_InvalidType_Throws*
+  commentId: Overload:BOOSEappTests.AppArrayTests.AppArray_Compile_InvalidType_Throws
+  href: BOOSEappTests.AppArrayTests.html#BOOSEappTests_AppArrayTests_AppArray_Compile_InvalidType_Throws
+  name: AppArray_Compile_InvalidType_Throws
+  nameWithType: AppArrayTests.AppArray_Compile_InvalidType_Throws
+  fullName: BOOSEappTests.AppArrayTests.AppArray_Compile_InvalidType_Throws
+- uid: BOOSEappTests.AppArrayTests.AppArray_Execute_IsNoOp_DoesNotThrow*
+  commentId: Overload:BOOSEappTests.AppArrayTests.AppArray_Execute_IsNoOp_DoesNotThrow
+  href: BOOSEappTests.AppArrayTests.html#BOOSEappTests_AppArrayTests_AppArray_Execute_IsNoOp_DoesNotThrow
+  name: AppArray_Execute_IsNoOp_DoesNotThrow
+  nameWithType: AppArrayTests.AppArray_Execute_IsNoOp_DoesNotThrow
+  fullName: BOOSEappTests.AppArrayTests.AppArray_Execute_IsNoOp_DoesNotThrow
